@@ -45,5 +45,8 @@ jobs:
       run: pytest
 ```
 ## This workflow performs the following steps:
-
+1. Checks out the code.
+2. Sets up Python 3.11
+3. Installs `pytest`.
+4. Run tests using `pytest`
 
